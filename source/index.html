@@ -12,74 +12,69 @@
 <body class="page__body">
 
   <header class="header">
-    <div class="header__container container">
-      <div class="header__inner">
-        <a class="header__logo" href="#">
-          <picture>
-            <source srcset="img/logo/logo-desktop.svg" media="(min-width:1440px)">
-            <source srcset="img/logo/logo-tablet.svg" media="(min-width:768px)">
-            <img class="header__logo-img" src="img/logo/logo-mobile.svg" alt="Логотип cat energy">
-          </picture>
-        </a>
+    <div class="header__container">
+      <a class="header__logo" href="#">
+        <picture>
+          <source srcset="img/logo/logo-desktop.svg" media="(min-width:1440px)">
+          <source srcset="img/logo/logo-tablet.svg" media="(min-width:768px)">
+          <img class="header__logo-img" src="img/logo/logo-mobile.svg" alt="Логотип cat energy">
+        </picture>
+      </a>
 
-        <nav class="header__navigation nav-main">
-          <ul class="nav-main__list">
-            <li class="nav-main__item nav-main__item--active">
-              <a class="nav-main__link">
-                главная
-              </a>
-            </li>
+      <nav class="header__navigation nav-main">
+        <ul class="nav-main__list">
+          <li class="nav-main__item nav-main__item--active">
+            <a class="nav-main__link">
+              главная
+            </a>
+          </li>
 
-            <li class="nav-main__item">
-              <a class="nav-main__link" href="#">
-                каталог продукции
-              </a>
-            </li>
+          <li class="nav-main__item">
+            <a class="nav-main__link" href="#">
+              каталог продукции
+            </a>
+          </li>
 
-            <li class="nav-main__item">
-              <a class="nav-main__link" href="#">
-                подбор программы
-              </a>
-            </li>
-          </ul>
+          <li class="nav-main__item">
+            <a class="nav-main__link" href="#">
+              подбор программы
+            </a>
+          </li>
+        </ul>
 
-          <button class="nav-main__burger burger" type="button" name="button">
-            <span class="burger__line"></span>
-            <span class="burger__line"></span>
-            <span class="burger__line"></span>
-            <span class="visually-hidden">Открыть меню</span>
-          </button>
-        </nav>
-
-      </div>
+        <button class="nav-main__burger burger" type="button" name="button">
+          <span class="burger__line"></span>
+          <span class="burger__line"></span>
+          <span class="burger__line"></span>
+          <span class="visually-hidden">Открыть меню</span>
+        </button>
+      </nav>
     </div>
   </header>
 
   <main class="page__main">
     <section class="hero">
       <div class="hero__container container">
-        <div class="hero__inner">
-          <div class="hero__contetnt">
-            <h1 class="hero__title title">
-              Функциональное питание для котов
-            </h1>
-            <span class="hero__subtitle">
-              Занялся собой? Займись котом!
-            </span>
-            <a class="hero__link main-link" href="#">
-              подобрать программу
-            </a>
-          </div>
+        <div class="hero__content">
+          <h1 class="hero__title title">
+            Функциональное питание для котов
+          </h1>
+          <span class="hero__subtitle">
+            Занялся собой? Займись котом!
+          </span>
+          <a class="hero__link main-link" href="#">
+            подобрать программу
+          </a>
+        </div>
 
-          <div class="hero__img-inner">
-            <img class="hero__img" src="img/hero/can-feed.png" alt="Корм cat energy с курицей">
-          </div>
+        <div class="hero__img-inner">
+          <img class="hero__img" src="img/hero/can-feed.png" alt="Корм cat energy с курицей">
         </div>
       </div>
     </section>
 
     <section class="advantages">
-      <div class="advantages__container container">
+      <div class="advantages__container">
         <ul class="advantages__list list-advantages">
           <li class="list-advantages__item">
             <h3 class="list-advantages__title">
@@ -117,8 +112,8 @@
     </section>
 
     <section class="works-how">
-      <div class="works-how__container container">
-        <h2 class="works-how__title title">
+      <div class="works-how__container">
+        <h2 class="works-how__title">
           Как это работает
         </h2>
         <ul class="works-how__list list-works-how">
@@ -158,8 +153,8 @@
     </section>
 
     <section class="example">
-      <div class="example__container container">
-        <h2 class="example__title title">
+      <div class="example__container">
+        <h2 class="example__title">
           Живой пример
         </h2>
         <div class="example__inner">
@@ -227,11 +222,9 @@
           <h3 class="adress__title">
             приглашаем к сотрудничеству дилеров!
           </h3>
-          <div class="adress__home">
-            <p>
-              ул. Большая Конюшенная, д. 19/8 Санкт-Петербург
-            </p>
-          </div>
+          <adress class="adress__home">
+            ул. Большая Конюшенная, д. 19/8 Санкт-Петербург
+          </adress>
           <img class="adress__map" src="img/location.jpg" alt="карта">
         </div>
       </div>
