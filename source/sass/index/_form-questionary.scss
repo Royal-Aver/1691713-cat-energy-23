@@ -1,0 +1,54 @@
+.form-questionary {
+  &__inner {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__box {
+    padding: 20px 0;
+  }
+
+  &__label {
+    display: flex;
+    margin-bottom: 15px;
+  }
+
+  &__text {
+    margin-right: 10px;
+    @include form-text;
+  }
+
+  &__field {
+    padding: 0 10px;
+    width: 100%;
+    height: 45px;
+    border: 1px solid #e7e7e7;
+
+    &::placeholder {
+      padding: 15px 5px;
+      text-transform: uppercase;
+      color: $tundora;
+    }
+  }
+
+  &__title {
+    margin-bottom: 35px;
+    font-size: 24px;
+    line-height: 26 / 24 * 100%;
+  }
+
+  &__textarea {
+    width: 100%;
+  }
+
+  &__button {
+    margin-bottom: 20px;
+    border: none;
+  }
+
+  &__footnote {
+    display: block;
+    max-width: 160px;
+    margin: 0 auto;
+  }
+}

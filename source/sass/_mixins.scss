@@ -5,6 +5,7 @@ $green: #68b738;
 $alto: #d9d9d9;
 $concrete: #f2f2f2;
 $gallery: #eaeaea;
+$tundora: #444444;
 
 $sm: 320px;
 $md: 768px;
@@ -24,18 +25,20 @@ $xl: 1440px;
 
 @mixin container {
   margin: 0 auto;
-  padding: 0 15px;
-
-  @include l($sm) {
-    max-width: 350px;
-  }
+  padding: 0 20px;
+  max-width: 360px;
 }
 
 @mixin title {
-  @include l($sm) {
-    font-family: "oswald";
-    font-weight: 400;
-    font-size: 36px;
-    line-height: 40px;
-  }
+  font-family: "oswald";
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 40px;
+}
+
+@mixin form-text {
+  font-family: "oswald";
+  font-size: 16px;
+  text-transform: uppercase;
+  color: $tundora;
 }

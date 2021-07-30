@@ -1,0 +1,21 @@
+.questionary {
+  padding: 25px 0 30px;
+
+  &__container {
+    @include container;
+  }
+
+  &__title {
+    @include title;
+    margin-bottom: 40px;
+    line-height: 1;
+  }
+
+  &__subtitle {
+    margin-bottom: 20px;
+    font-family: "oswald";
+    text-transform: uppercase;
+    width: 230px;
+    max-width: 100%;
+  }
+}
