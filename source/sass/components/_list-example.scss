@@ -1,0 +1,19 @@
+.list-example {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  &__item {
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
+  }
+
+  &__num {
+    display: block;
+    color: $black;
+
+    font-size: 34px;
+    line-height: 34 / 34 * 100%;
+  }
+}

@@ -1,0 +1,22 @@
+.example {
+  margin: 20px 0 15px;
+  padding: 30px 0 25px;
+  background-color: $gallery;
+
+  &__container {
+    @include container;
+    margin-bottom: 35px;
+  }
+
+  &__title {
+    @include title;
+  }
+
+  &__text {
+    margin-bottom: 25px;
+  }
+
+  &__expenses {
+    margin-bottom: 40px;
+  }
+}

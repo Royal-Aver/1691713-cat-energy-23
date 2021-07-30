@@ -1,0 +1,11 @@
+.main-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+  font-family: "oswald";
+  background-color: $green;
+  color: $white;
+  text-transform: uppercase;
+}

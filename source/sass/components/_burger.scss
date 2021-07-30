@@ -1,0 +1,16 @@
+.burger {
+  background-color: transparent;
+  border: none;
+  margin-left: auto;
+  position: relative;
+  z-index: 2;
+  padding: 0 10px;
+
+  &__line {
+    display: block;
+    width: 24px;
+    height: 1.5px;
+    background-color: $black;
+    margin: 8px 0;
+  }
+}
