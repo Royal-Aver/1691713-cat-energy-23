@@ -12,45 +12,43 @@
 <body class="page__body">
 
   <header class="header">
-    <div class="header__container container">
-      <div class="header__inner">
-        <a class="header__logo" href="#">
-          <picture>
-            <source srcset="img/logo/logo-desktop.svg" media="(min-width:1440px)">
-            <source srcset="img/logo/logo-tablet.svg" media="(min-width:768px)">
-            <img class="header__logo-img" src="img/logo/logo-mobile.svg" alt="Логотип cat energy">
-          </picture>
-        </a>
+    <div class="header__container">
+      <a class="header__logo" href="#">
+        <picture>
+          <source srcset="img/logo/logo-desktop.svg" media="(min-width:1440px)">
+          <source srcset="img/logo/logo-tablet.svg" media="(min-width:768px)">
+          <img class="header__logo-img" src="img/logo/logo-mobile.svg" alt="Логотип cat energy">
+        </picture>
+      </a>
 
-        <nav class="header__navigation nav-main">
-          <ul class="nav-main__list">
-            <li class="nav-main__item nav-main__item--active">
-              <a class="nav-main__link">
-                главная
-              </a>
-            </li>
+      <nav class="header__navigation nav-main">
+        <ul class="nav-main__list">
+          <li class="nav-main__item">
+            <a class="nav-main__link" href="#">
+              главная
+            </a>
+          </li>
 
-            <li class="nav-main__item">
-              <a class="nav-main__link" href="#">
-                каталог продукции
-              </a>
-            </li>
+          <li class="nav-main__item">
+            <a class="nav-main__link" href="#">
+              каталог продукции
+            </a>
+          </li>
 
-            <li class="nav-main__item">
-              <a class="nav-main__link" href="#">
-                подбор программы
-              </a>
-            </li>
-          </ul>
+          <li class="nav-main__item nav-main__item--active">
+            <a class="nav-main__link">
+              подбор программы
+            </a>
+          </li>
+        </ul>
 
-          <button class="nav-main__burger burger" type="button" name="button">
-            <span class="burger__line"></span>
-            <span class="burger__line"></span>
-            <span class="burger__line"></span>
-            <span class="visually-hidden">Открыть меню</span>
-          </button>
-        </nav>
-      </div>
+        <button class="nav-main__burger burger" type="button" name="button">
+          <span class="burger__line"></span>
+          <span class="burger__line"></span>
+          <span class="burger__line"></span>
+          <span class="visually-hidden">Открыть меню</span>
+        </button>
+      </nav>
     </div>
   </header>
 
@@ -135,58 +133,59 @@
             </label>
           </div>
 
-          <div class="comment">
+          <div class="form__comment comment">
             <h2 class="comment__title">
               Комментарий
             </h2>
             <textarea class="comment__field" name="comment" placeholder="Расскажите обо всех повадках кота"></textarea>
+          </div>
 
-            <div class="form__extra form-extra">
-              <h2 class="form-extra__title title">
-                Дополнительно
-              </h2>
-              <div class="form-extra__inner">
-                <label class="form-extra__label">
-                  <input class="form-extra__input" type="checkbox">
-                  <span class="form-extra__text form-text">
-                    сахарозаменитель
-                  </span>
-                  <span class="form-extra__checkbox"></span>
-                </label>
+          <div class="form__extra form-extra">
+            <h2 class="form-extra__title title">
+              Дополнительно
+            </h2>
+            <div class="form-extra__inner">
+              <label class="form-extra__label">
+                <input class="form-extra__input" type="checkbox">
+                <span class="form-extra__text form-text">
+                  сахарозаменитель
+                </span>
+                <span class="form-extra__checkbox"></span>
+              </label>
 
-                <label class="form-extra__label">
-                  <input class="form-extra__input" type="checkbox">
-                  <span class="form-extra__text form-text">
-                    питьевая вода
-                  </span>
-                  <span class="form-extra__checkbox"></span>
-                </label>
+              <label class="form-extra__label">
+                <input class="form-extra__input" type="checkbox">
+                <span class="form-extra__text form-text">
+                  питьевая вода
+                </span>
+                <span class="form-extra__checkbox"></span>
+              </label>
 
-                <label class="form-extra__label">
-                  <input class="form-extra__input" type="checkbox">
-                  <span class="form-extra__text form-text">
-                    молоко
-                  </span>
-                  <span class="form-extra__checkbox"></span>
-                </label>
+              <label class="form-extra__label">
+                <input class="form-extra__input" type="checkbox">
+                <span class="form-extra__text form-text">
+                  молоко
+                </span>
+                <span class="form-extra__checkbox"></span>
+              </label>
 
-                <label class="form-extra__label">
-                  <input class="form-extra__input" type="checkbox">
-                  <span class="form-extra__text form-text">
-                    витамины
-                  </span>
-                  <span class="form-extra__checkbox"></span>
-                </label>
-              </div>
+              <label class="form-extra__label">
+                <input class="form-extra__input" type="checkbox">
+                <span class="form-extra__text form-text">
+                  витамины
+                </span>
+                <span class="form-extra__checkbox"></span>
+              </label>
             </div>
+          </div>
 
-            <button class="form__button main__link" type="submit">
-              отправить заявку
-            </button>
+          <button class="form__button main__link" type="submit">
+            отправить заявку
+          </button>
 
-            <span class="form__footnote">
-              * — Обязательные поля
-            </span>
+          <span class="form__footnote">
+            * — Обязательные поля
+          </span>
         </form>
     </section>
 
