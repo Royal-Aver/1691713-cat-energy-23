@@ -11,13 +11,13 @@ $sm: 320px;
 $md: 768px;
 $xl: 1440px;
 
-@mixin r($width) {
+@mixin max($width) {
   @media only screen and (max-width: $width) {
     @content;
   }
 }
 
-@mixin l($width) {
+@mixin min($width) {
   @media only screen and (min-width: $width) {
     @content;
   }
@@ -30,14 +30,14 @@ $xl: 1440px;
 }
 
 @mixin title {
-  font-family: "oswald";
+  font-family: "oswald", sans-serif;
   font-weight: 400;
   font-size: 36px;
   line-height: 40px;
 }
 
 @mixin form-text {
-  font-family: "oswald";
+  font-family: "oswald", sans-serif;
   font-size: 16px;
   text-transform: uppercase;
   color: $tundora;

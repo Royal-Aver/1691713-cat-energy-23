@@ -3,10 +3,10 @@
   border-bottom: 1px solid $alto;
 
   &__container {
+    @include container;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    @include container;
   }
 
   &__navigation {

@@ -1,5 +1,6 @@
 .hero {
   position: relative;
+
   &__container {
     @include container;
   }
@@ -18,7 +19,7 @@
 
   &__subtitle {
     display: block;
-    font-family: "oswald";
+    font-family: "oswald", sans-serif;
     text-align: center;
     color: $white;
     font-size: 14px;
@@ -30,7 +31,7 @@
   &__img-inner {
     position: absolute;
     top: 0;
-    background: $green url(../../img/hero/hero-bg-mobile.jpg);
+    background: $green url("../../img/hero/hero-bg-mobile.jpg");
     z-index: -1;
     background-size: cover;
     background-position: center top;
