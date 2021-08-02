@@ -1,1 +1,26 @@
-// Начните писать стили здесь
+@import "mixins";
+@import "global";
+@import "reset";
+@import "components/header";
+@import "components/nav-main";
+@import "components/burger";
+@import "index/hero";
+@import "components/main-link";
+@import "index/advantages";
+@import "components/list-advantages";
+@import "index/works-how";
+@import "components/list-works-how";
+@import "index/example";
+@import "components/list-example";
+@import "components/filter-example";
+@import "components/adress";
+@import "components/footer";
+@import "components/socials";
+@import "index/questionary";
+@import "index/form-questionary";
+@import "index/catalog";
+@import "index/list-product";
+@import "components/card-product";
+@import "index/additional";
+@import "components/list-additional";
+@import "components/gift-additional";

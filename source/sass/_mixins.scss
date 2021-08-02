@@ -1,0 +1,44 @@
+$tundora: #444444;
+$black: #000000;
+$white: #ffffff;
+$green: #68b738;
+$alto: #d9d9d9;
+$concrete: #f2f2f2;
+$gallery: #eaeaea;
+$mine-shaft: #222222;
+
+$sm: 320px;
+$md: 768px;
+$xl: 1440px;
+
+@mixin r($width) {
+  @media only screen and (max-width: $width) {
+    @content;
+  }
+}
+
+@mixin l($width) {
+  @media only screen and (min-width: $width) {
+    @content;
+  }
+}
+
+@mixin container {
+  margin: 0 auto;
+  padding: 0 20px;
+  max-width: 360px;
+}
+
+@mixin title {
+  font-family: "oswald";
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 40px;
+}
+
+@mixin form-text {
+  font-family: "oswald";
+  font-size: 16px;
+  text-transform: uppercase;
+  color: $tundora;
+}

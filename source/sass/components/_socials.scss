@@ -1,0 +1,17 @@
+.socials {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  border-top: 1px solid $alto;
+  border-bottom: 1px solid $alto;
+
+  &__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &:not(:last-child) {
+      margin-right: 25px;
+    }
+  }
+}

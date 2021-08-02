@@ -1,0 +1,8 @@
+.list-product {
+  display: flex;
+  flex-direction: column;
+
+  &__item {
+    margin-bottom: 25px;
+  }
+}

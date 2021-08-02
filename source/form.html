@@ -10,47 +10,44 @@
 </head>
 
 <body class="page__body">
-
   <header class="header">
-    <div class="header__container container">
-      <div class="header__inner">
-        <a class="header__logo" href="#">
-          <picture>
-            <source srcset="img/logo/logo-desktop.svg" media="(min-width:1440px)">
-            <source srcset="img/logo/logo-tablet.svg" media="(min-width:768px)">
-            <img class="header__logo-img" src="img/logo/logo-mobile.svg" alt="Логотип cat energy">
-          </picture>
-        </a>
+    <div class="header__container">
+      <a class="header__logo" href="#">
+        <picture>
+          <source srcset="img/logo/logo-desktop.svg" media="(min-width:1440px)">
+          <source srcset="img/logo/logo-tablet.svg" media="(min-width:768px)">
+          <img class="header__logo-img" src="img/logo/logo-mobile.svg" alt="Логотип cat energy">
+        </picture>
+      </a>
 
-        <nav class="header__navigation nav-main">
-          <ul class="nav-main__list">
-            <li class="nav-main__item nav-main__item--active">
-              <a class="nav-main__link">
-                главная
-              </a>
-            </li>
+      <nav class="header__navigation nav-main">
+        <ul class="nav-main__list">
+          <li class="nav-main__item">
+            <a class="nav-main__link" href="#">
+              главная
+            </a>
+          </li>
 
-            <li class="nav-main__item">
-              <a class="nav-main__link" href="#">
-                каталог продукции
-              </a>
-            </li>
+          <li class="nav-main__item">
+            <a class="nav-main__link" href="#">
+              каталог продукции
+            </a>
+          </li>
 
-            <li class="nav-main__item">
-              <a class="nav-main__link" href="#">
-                подбор программы
-              </a>
-            </li>
-          </ul>
+          <li class="nav-main__item nav-main__item--active">
+            <a class="nav-main__link">
+              подбор программы
+            </a>
+          </li>
+        </ul>
 
-          <button class="nav-main__burger burger" type="button" name="button">
-            <span class="burger__line"></span>
-            <span class="burger__line"></span>
-            <span class="burger__line"></span>
-            <span class="visually-hidden">Открыть меню</span>
-          </button>
-        </nav>
-      </div>
+        <button class="nav-main__burger burger" type="button" name="button">
+          <span class="burger__line"></span>
+          <span class="burger__line"></span>
+          <span class="burger__line"></span>
+          <span class="visually-hidden">Открыть меню</span>
+        </button>
+      </nav>
     </div>
   </header>
 
@@ -64,129 +61,131 @@
           Заполните анкету, и мы подберем
           программу питания для вашего кота
         </p>
-        <form class="form" action="#">
-          <div class="form__questionary form-questionary">
-            <div class="form-questionary-text">
-              <label class="form-questionary-text__label">
-                <span class="form-questionary-text__text form-text">
+        <form class="form__questionary form-questionary" action="#">
+          <div class="form-questionary__inner">
+            <div class="form-questionary__box">
+              <label class="form-questionary__label">
+                <span class="form-questionary__text form-text">
                   имя:*
                 </span>
-                <input class="form-questionary-text__field" type="text" placeholder="барсик" required>
+                <input class="form-questionary__field" type="text" placeholder="барсик" required>
               </label>
 
-              <label class="form-questionary-text__label">
-                <span class="form-questionary-text__text form-text">
+              <label class="form-questionary__label">
+                <span class="form-questionary__text form-text">
                   Вес (кг):*
                 </span>
-                <input class="form-questionary-text__field" type="text" placeholder="7" required>
+                <input class="form-questionary__field" type="text" placeholder="7" required>
               </label>
 
-              <label class="form-questionary-text__label">
-                <span class="form-questionary-text__text form-text">
+              <label class="form-questionary__label">
+                <span class="form-questionary__text form-text">
                   Возраст (лет):
                 </span>
-                <input class="form-questionary__field-text" type="text" placeholder="7">
+                <input class="form-questionary__field" type="text" placeholder="7">
               </label>
             </div>
 
-            <div class="form__questionary form-questionary-radio" action="#">
-              <label class="form-questionary-radio__label">
-                <input type="radio" class="form-questionary-radio__input">
-                <span class="form-questionary-radio__radio"></span>
-                <span class="form-questionary-radio__text form-text">
+            <div class="form-questionary__box" action="#">
+              <label class="form-questionary__label">
+                <input type="radio" class="form-questionary__input">
+                <span class="form-questionary__radio"></span>
+                <span class="form-questionary__text form-text">
                   похудение
                 </span>
               </label>
 
-              <label class="form-questionary-radio__label">
-                <input type="radio" class="form-questionary-radio__input">
-                <span class="form-questionary-radio__radio"></span>
-                <span class="form-questionary-radio__text form-text">
+              <label class="form-questionary__label">
+                <input type="radio" class="form-questionary__input">
+                <span class="form-questionary__radio"></span>
+                <span class="form-questionary__text form-text">
                   Набор массы
                 </span>
               </label>
 
-              <label class="form-questionary-radio__label">
-                <input type="radio" class="form-questionary-radio__input">
-                <span class="form-questionary-radio__radio"></span>
-                <span class="form-questionary-radio__text form-text">
+              <label class="form-questionary__label">
+                <input type="radio" class="form-questionary__input">
+                <span class="form-questionary__radio"></span>
+                <span class="form-questionary__text form-text">
                   Не знаю (Нужен ваш совет)
                 </span>
               </label>
             </div>
           </div>
 
-          <div class="form__contacts form-contacts">
-            <h2 class="contacts__title title">
+          <div class="form-questionary__box">
+            <h2 class="form-questionary__title">
               Контактные данные (владельца кота)
             </h2>
-            <label class="form-contacts__label">
-              <span class="form-contacts__text form-text">
+            <label class="form-questionary__label">
+              <span class="form-questionary__text form-text">
                 E-mail:*
               </span>
-              <input class="form-contacts__field" type="email" placeholder="kuklachev@gmail.com" required>
+              <input class="form-questionary__field" type="email" placeholder="kuklachev@gmail.com" required>
             </label>
 
-            <label class="form-contacts__label">
-              <span class="form-contacts__text form-text">
+            <label class="form-questionary__label">
+              <span class="form-questionary__text form-text">
                 Телефон:*
               </span>
-              <input class="form-contacts__field" type="tel" placeholder="8 (960) 900-60-90" required>
+              <input class="form-questionary__field" type="tel" placeholder="8 (960) 900-60-90" required>
             </label>
           </div>
 
-          <div class="comment">
-            <h2 class="comment__title">
+          <div class="form-questionary__box">
+            <h2 class="form-questionary__title">
               Комментарий
             </h2>
-            <textarea class="comment__field" name="comment" placeholder="Расскажите обо всех повадках кота"></textarea>
+            <textarea class="form-questionary__field form-questionary__textarea" name="comment"
+              placeholder="Расскажите обо всех повадках кота"></textarea>
+          </div>
 
-            <div class="form__extra form-extra">
-              <h2 class="form-extra__title title">
-                Дополнительно
-              </h2>
-              <div class="form-extra__inner">
-                <label class="form-extra__label">
-                  <input class="form-extra__input" type="checkbox">
-                  <span class="form-extra__text form-text">
-                    сахарозаменитель
-                  </span>
-                  <span class="form-extra__checkbox"></span>
-                </label>
+          <div class="form-questionary-box">
+            <h2 class="form-questionary__title">
+              Дополнительно
+            </h2>
+            <div class="form-questionary__inner">
+              <label class="form-questionary__label">
+                <input class="form-questionary__input" type="checkbox">
+                <span class="form-questionary__text form-text">
+                  сахарозаменитель
+                </span>
+                <span class="form-questionary__checkbox"></span>
+              </label>
 
-                <label class="form-extra__label">
-                  <input class="form-extra__input" type="checkbox">
-                  <span class="form-extra__text form-text">
-                    питьевая вода
-                  </span>
-                  <span class="form-extra__checkbox"></span>
-                </label>
+              <label class="form-questionary__label">
+                <input class="form-questionary__input" type="checkbox">
+                <span class="form-questionary__text form-text">
+                  питьевая вода
+                </span>
+                <span class="form-questionary__checkbox"></span>
+              </label>
 
-                <label class="form-extra__label">
-                  <input class="form-extra__input" type="checkbox">
-                  <span class="form-extra__text form-text">
-                    молоко
-                  </span>
-                  <span class="form-extra__checkbox"></span>
-                </label>
+              <label class="form-questionary__label">
+                <input class="form-questionary__input" type="checkbox">
+                <span class="form-questionary__text form-text">
+                  молоко
+                </span>
+                <span class="form-questionary__checkbox"></span>
+              </label>
 
-                <label class="form-extra__label">
-                  <input class="form-extra__input" type="checkbox">
-                  <span class="form-extra__text form-text">
-                    витамины
-                  </span>
-                  <span class="form-extra__checkbox"></span>
-                </label>
-              </div>
+              <label class="form-questionary__label">
+                <input class="form-questionary__input" type="checkbox">
+                <span class="form-questionary__text form-text">
+                  витамины
+                </span>
+                <span class="form-questionary__checkbox"></span>
+              </label>
             </div>
+          </div>
 
-            <button class="form__button main__link" type="submit">
-              отправить заявку
-            </button>
+          <button class="form-questionary__button main-link" type="submit">
+            отправить заявку
+          </button>
 
-            <span class="form__footnote">
-              * — Обязательные поля
-            </span>
+          <span class="form-questionary__footnote">
+            * — Обязательные поля
+          </span>
         </form>
     </section>
 
@@ -200,15 +199,17 @@
           <adress class="adress__home">
             ул. Большая Конюшенная, д. 19/8 Санкт-Петербург
           </adress>
-          <img class="adress__map" src="img/location.jpg" alt="карта">
         </div>
       </div>
+      <img class="adress__map" src="img/location.jpg" alt="карта">
     </section>
   </main>
 
   <footer class="footer">
     <div class="footer__container">
-      <img class="footer__logo" src="img/logo/logo-footer.svg" alt="Cat energy">
+      <div class="footer__logo-inner">
+        <img class="footer__logo" src="img/logo/logo-footer.svg" alt="Cat energy">
+      </div>
       <ul class="footer__socials socials">
         <li class="socials__item">
           <a class="socials__link" href="#">

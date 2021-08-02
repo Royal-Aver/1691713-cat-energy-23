@@ -13,45 +13,42 @@
 
   <header class="header">
     <div class="header__container">
-      <div class="header__inner">
-        <a class="header__logo" href="#">
-          <picture>
-            <source srcset="img/logo/logo-desktop.svg" media="(min-width:1440px)">
-            <source srcset="img/logo/logo-tablet.svg" media="(min-width:768px)">
-            <img class="header__logo-img" src="img/logo/logo-mobile.svg" alt="Логотип cat energy">
-          </picture>
-        </a>
+      <a class="header__logo" href="#">
+        <picture>
+          <source srcset="img/logo/logo-desktop.svg" media="(min-width:1440px)">
+          <source srcset="img/logo/logo-tablet.svg" media="(min-width:768px)">
+          <img class="header__logo-img" src="img/logo/logo-mobile.svg" alt="Логотип cat energy">
+        </picture>
+      </a>
 
-        <nav class="header__navigation nav-main">
-          <ul class="nav-main__list">
-            <li class="nav-main__item nav-main__item--active">
-              <a class="nav-main__link">
-                главная
-              </a>
-            </li>
+      <nav class="header__navigation nav-main">
+        <ul class="nav-main__list">
+          <li class="nav-main__item">
+            <a class="nav-main__link" href="#">
+              главная
+            </a>
+          </li>
 
-            <li class="nav-main__item">
-              <a class="nav-main__link" href="#">
-                каталог продукции
-              </a>
-            </li>
+          <li class="nav-main__item nav-main__item--active">
+            <a class="nav-main__link">
+              каталог продукции
+            </a>
+          </li>
 
-            <li class="nav-main__item">
-              <a class="nav-main__link" href="#">
-                подбор программы
-              </a>
-            </li>
-          </ul>
+          <li class="nav-main__item">
+            <a class="nav-main__link" href="#">
+              подбор программы
+            </a>
+          </li>
+        </ul>
 
-          <button class="nav-main__burger burger" type="button" name="button">
-            <span class="burger__line"></span>
-            <span class="burger__line"></span>
-            <span class="burger__line"></span>
-            <span class="visually-hidden">Открыть меню</span>
-          </button>
-        </nav>
-
-      </div>
+        <button class="nav-main__burger burger" type="button" name="button">
+          <span class="burger__line"></span>
+          <span class="burger__line"></span>
+          <span class="burger__line"></span>
+          <span class="visually-hidden">Открыть меню</span>
+        </button>
+      </nav>
     </div>
   </header>
 
@@ -64,81 +61,42 @@
         <ul class="catalog__list list-product">
           <li class="list-product__item">
             <article class="card-product">
-              <img class="card-product__img" src="img/card-product/chiken-500g.png"
-                alt="Cat energy со вкусом курицы 500 грамм">
-
-              <div class="card-product__content">
-                <h3 class="card-product__title">
-                  Cat Energy PRO 500 г
-                </h3>
-                <div class="card-product__text">
-                  <span class="card-product__parameter">
-                    Масса
-                  </span>
-                  <span class="card-product__value">
-                    500 г
-                  </span>
+              <div class="card-product__inner">
+                <div class="card-product__img-inner">
+                  <img class="card-product__img" src="img/card-product/chiken-500g.png"
+                    alt="Cat energy со вкусом курицы 500 грамм">
                 </div>
 
-                <div class="card-product__text">
-                  <span class="card-product__parameter">
-                    Вкус
-                  </span>
-                  <span class="card-product__value">
-                    Курица
-                  </span>
-                </div>
+                <div class="card-product__content">
+                  <h3 class="card-product__title">
+                    Cat Energy PRO 500 г
+                  </h3>
+                  <div class="card-product__text">
+                    <span class="card-product__parameter">
+                      Масса
+                    </span>
+                    <span class="card-product__value">
+                      500 г
+                    </span>
+                  </div>
 
-                <div class="card-product__text">
-                  <span class="card-product__parameter">
-                    Цена
-                  </span>
-                  <span class="card-product__value">
-                    700 Р.
-                  </span>
-                </div>
-              </div>
+                  <div class="card-product__text">
+                    <span class="card-product__parameter">
+                      Вкус
+                    </span>
+                    <span class="card-product__value">
+                      Курица
+                    </span>
+                  </div>
 
-              <button class="card-product__button main-link">
-                заказать
-              </button>
-            </article>
-          </li>
-
-          <li class="list-product__item">
-            <article class="card-product">
-              <img class="card-product__img" src="img/card-product/chiken-1000g.png"
-                alt="Cat energy со вкусом курицы 1000 грамм">
-
-              <div class="card-product__content">
-                <h3 class="card-product__title">
-                  Cat Energy PRO 1000 г
-                </h3>
-                <div class="card-product__text">
-                  <span class="card-product__parameter">
-                    Масса
-                  </span>
-                  <span class="card-product__value">
-                    1000 г
-                  </span>
-                </div>
-
-                <div class="card-product__text">
-                  <span class="card-product__parameter">
-                    Вкус
-                  </span>
-                  <span class="card-product__value">
-                    Курица
-                  </span>
-                </div>
-
-                <div class="card-product__text">
-                  <span class="card-product__parameter">
-                    Цена
-                  </span>
-                  <span class="card-product__value">
-                    1000 Р.
-                  </span>
+                  <div class="card-product__text">
+                    <span class="card-product__parameter">
+                      Цена
+                    </span>
+                    <span class="card-product__value">
+                      700 Р.
+                    </span>
+                  </div>
                 </div>
               </div>
 
@@ -150,81 +108,42 @@
 
           <li class="list-product__item">
             <article class="card-product">
-              <img class="card-product__img" src="img/card-product/fish-500g.png"
-                alt="Cat energy со вкусом рыбы 500 грамм">
-
-              <div class="card-product__content">
-                <h3 class="card-product__title">
-                  Cat Energy PRO 500 г
-                </h3>
-                <div class="card-product__text">
-                  <span class="card-product__parameter">
-                    Масса
-                  </span>
-                  <span class="card-product__value">
-                    500 г
-                  </span>
+              <div class="card-product__inner">
+                <div class="card-product__img-inner">
+                  <img class="card-product__img" src="img/card-product/chiken-1000g.png"
+                    alt="Cat energy со вкусом курицы 1000 грамм">
                 </div>
 
-                <div class="card-product__text">
-                  <span class="card-product__parameter">
-                    Вкус
-                  </span>
-                  <span class="card-product__value">
-                    Рыба
-                  </span>
-                </div>
+                <div class="card-product__content">
+                  <h3 class="card-product__title">
+                    Cat Energy PRO 1000 г
+                  </h3>
+                  <div class="card-product__text">
+                    <span class="card-product__parameter">
+                      Масса
+                    </span>
+                    <span class="card-product__value">
+                      1000 г
+                    </span>
+                  </div>
 
-                <div class="card-product__text">
-                  <span class="card-product__parameter">
-                    Цена
-                  </span>
-                  <span class="card-product__value">
-                    700 Р.
-                  </span>
-                </div>
-              </div>
+                  <div class="card-product__text">
+                    <span class="card-product__parameter">
+                      Вкус
+                    </span>
+                    <span class="card-product__value">
+                      Курица
+                    </span>
+                  </div>
 
-              <button class="card-product__button main-link">
-                заказать
-              </button>
-            </article>
-          </li>
-
-          <li class="list-product__item">
-            <article class="card-product">
-              <img class="card-product__img" src="img/card-product/fish-1000g.png"
-                alt="Cat energy со вкусом рыбы 1000 грамм">
-
-              <div class="card-product__content">
-                <h3 class="card-product__title">
-                  Cat Energy PRO 1000 г
-                </h3>
-                <div class="card-product__text">
-                  <span class="card-product__parameter">
-                    Масса
-                  </span>
-                  <span class="card-product__value">
-                    1000 г
-                  </span>
-                </div>
-
-                <div class="card-product__text">
-                  <span class="card-product__parameter">
-                    Вкус
-                  </span>
-                  <span class="card-product__value">
-                    Рыба
-                  </span>
-                </div>
-
-                <div class="card-product__text">
-                  <span class="card-product__parameter">
-                    Цена
-                  </span>
-                  <span class="card-product__value">
-                    1000 Р.
-                  </span>
+                  <div class="card-product__text">
+                    <span class="card-product__parameter">
+                      Цена
+                    </span>
+                    <span class="card-product__value">
+                      1000 Р.
+                    </span>
+                  </div>
                 </div>
               </div>
 
@@ -236,81 +155,42 @@
 
           <li class="list-product__item">
             <article class="card-product">
-              <img class="card-product__img" src="img/card-product/buckwheat-500g.png"
-                alt="Cat energy со вкусом гречки 500 грамм">
-
-              <div class="card-product__content">
-                <h3 class="card-product__title">
-                  Cat Energy PRO 500 г
-                </h3>
-                <div class="card-product__text">
-                  <span class="card-product__parameter">
-                    Масса
-                  </span>
-                  <span class="card-product__value">
-                    500 г
-                  </span>
+              <div class="card-product__inner">
+                <div class="card-product__img-inner">
+                  <img class="card-product__img" src="img/card-product/fish-500g.png"
+                    alt="Cat energy со вкусом рыбы 500 грамм">
                 </div>
 
-                <div class="card-product__text">
-                  <span class="card-product__parameter">
-                    Вкус
-                  </span>
-                  <span class="card-product__value">
-                    Гречка
-                  </span>
-                </div>
+                <div class="card-product__content">
+                  <h3 class="card-product__title">
+                    Cat Energy PRO 500 г
+                  </h3>
+                  <div class="card-product__text">
+                    <span class="card-product__parameter">
+                      Масса
+                    </span>
+                    <span class="card-product__value">
+                      500 г
+                    </span>
+                  </div>
 
-                <div class="card-product__text">
-                  <span class="card-product__parameter">
-                    Цена
-                  </span>
-                  <span class="card-product__value">
-                    700 Р.
-                  </span>
-                </div>
-              </div>
+                  <div class="card-product__text">
+                    <span class="card-product__parameter">
+                      Вкус
+                    </span>
+                    <span class="card-product__value">
+                      Рыба
+                    </span>
+                  </div>
 
-              <button class="card-product__button main-link">
-                заказать
-              </button>
-            </article>
-          </li>
-
-          <li class="list-product__item">
-            <article class="card-product">
-              <img class="card-product__img" src="img/card-product/buckwheat-1000g.png"
-                alt="Cat energy со вкусом гречки 1000 грамм">
-
-              <div class="card-product__content">
-                <h3 class="card-product__title">
-                  Cat Energy PRO 1000 г
-                </h3>
-                <div class="card-product__text">
-                  <span class="card-product__parameter">
-                    Масса
-                  </span>
-                  <span class="card-product__value">
-                    500 г
-                  </span>
-                </div>
-
-                <div class="card-product__text">
-                  <span class="card-product__parameter">
-                    Вкус
-                  </span>
-                  <span class="card-product__value">
-                    Гречка
-                  </span>
-                </div>
-
-                <div class="card-product__text">
-                  <span class="card-product__parameter">
-                    Цена
-                  </span>
-                  <span class="card-product__value">
-                    1000 Р.
-                  </span>
+                  <div class="card-product__text">
+                    <span class="card-product__parameter">
+                      Цена
+                    </span>
+                    <span class="card-product__value">
+                      700 Р.
+                    </span>
+                  </div>
                 </div>
               </div>
 
@@ -322,38 +202,42 @@
 
           <li class="list-product__item">
             <article class="card-product">
-              <img class="card-product__img" src="img/card-product/rice-500g.png"
-                alt="Cat energy со вкусом курицы 500 грамм">
-
-              <div class="card-product__content">
-                <h3 class="card-product__title">
-                  Cat Energy PRO 500 г
-                </h3>
-                <div class="card-product__text">
-                  <span class="card-product__parameter">
-                    Масса
-                  </span>
-                  <span class="card-product__value">
-                    500 г
-                  </span>
+              <div class="card-product__inner">
+                <div class="card-product__img-inner">
+                  <img class="card-product__img" src="img/card-product/fish-1000g.png"
+                    alt="Cat energy со вкусом рыбы 1000 грамм">
                 </div>
 
-                <div class="card-product__text">
-                  <span class="card-product__parameter">
-                    Вкус
-                  </span>
-                  <span class="card-product__value">
-                    Рис
-                  </span>
-                </div>
+                <div class="card-product__content">
+                  <h3 class="card-product__title">
+                    Cat Energy PRO 1000 г
+                  </h3>
+                  <div class="card-product__text">
+                    <span class="card-product__parameter">
+                      Масса
+                    </span>
+                    <span class="card-product__value">
+                      1000 г
+                    </span>
+                  </div>
 
-                <div class="card-product__text">
-                  <span class="card-product__parameter">
-                    Цена
-                  </span>
-                  <span class="card-product__value">
-                    700 Р.
-                  </span>
+                  <div class="card-product__text">
+                    <span class="card-product__parameter">
+                      Вкус
+                    </span>
+                    <span class="card-product__value">
+                      Рыба
+                    </span>
+                  </div>
+
+                  <div class="card-product__text">
+                    <span class="card-product__parameter">
+                      Цена
+                    </span>
+                    <span class="card-product__value">
+                      1000 Р.
+                    </span>
+                  </div>
                 </div>
               </div>
 
@@ -364,15 +248,158 @@
           </li>
 
           <li class="list-product__item">
-            <span class="list-product__name">
-              Показать еще 100500 товаров
-            </span>
-            <span class="list-product__text">
-              На самом деле вкусов гораздо больше!
-            </span>
-            <button class="list-product__button">
-              показать все
-            </button>
+            <article class="card-product">
+              <div class="card-product__inner">
+                <div class="card-product__img-inner">
+                  <img class="card-product__img" src="img/card-product/buckwheat-500g.png"
+                    alt="Cat energy со вкусом гречки 500 грамм">
+                </div>
+
+                <div class="card-product__content">
+                  <h3 class="card-product__title">
+                    Cat Energy PRO 500 г
+                  </h3>
+                  <div class="card-product__text">
+                    <span class="card-product__parameter">
+                      Масса
+                    </span>
+                    <span class="card-product__value">
+                      500 г
+                    </span>
+                  </div>
+
+                  <div class="card-product__text">
+                    <span class="card-product__parameter">
+                      Вкус
+                    </span>
+                    <span class="card-product__value">
+                      Гречка
+                    </span>
+                  </div>
+
+                  <div class="card-product__text">
+                    <span class="card-product__parameter">
+                      Цена
+                    </span>
+                    <span class="card-product__value">
+                      700 Р.
+                    </span>
+                  </div>
+                </div>
+              </div>
+
+              <button class="card-product__button main-link">
+                заказать
+              </button>
+            </article>
+          </li>
+
+          <li class="list-product__item">
+            <article class="card-product">
+              <div class="card-product__inner">
+                <div class="card-product__img-inner">
+                  <img class="card-product__img" src="img/card-product/buckwheat-1000g.png"
+                    alt="Cat energy со вкусом гречки 1000 грамм">
+                </div>
+
+                <div class="card-product__content">
+                  <h3 class="card-product__title">
+                    Cat Energy PRO 1000 г
+                  </h3>
+                  <div class="card-product__text">
+                    <span class="card-product__parameter">
+                      Масса
+                    </span>
+                    <span class="card-product__value">
+                      500 г
+                    </span>
+                  </div>
+
+                  <div class="card-product__text">
+                    <span class="card-product__parameter">
+                      Вкус
+                    </span>
+                    <span class="card-product__value">
+                      Гречка
+                    </span>
+                  </div>
+
+                  <div class="card-product__text">
+                    <span class="card-product__parameter">
+                      Цена
+                    </span>
+                    <span class="card-product__value">
+                      1000 Р.
+                    </span>
+                  </div>
+                </div>
+              </div>
+
+              <button class="card-product__button main-link">
+                заказать
+              </button>
+            </article>
+          </li>
+
+          <li class="list-product__item">
+            <article class="card-product">
+              <div class="card-product__inner">
+                <div class="card-product__img-inner">
+                  <img class="card-product__img" src="img/card-product/rice-500g.png"
+                    alt="Cat energy со вкусом курицы 500 грамм">
+                </div>
+
+                <div class="card-product__content">
+                  <h3 class="card-product__title">
+                    Cat Energy PRO 500 г
+                  </h3>
+                  <div class="card-product__text">
+                    <span class="card-product__parameter">
+                      Масса
+                    </span>
+                    <span class="card-product__value">
+                      500 г
+                    </span>
+                  </div>
+
+                  <div class="card-product__text">
+                    <span class="card-product__parameter">
+                      Вкус
+                    </span>
+                    <span class="card-product__value">
+                      Рис
+                    </span>
+                  </div>
+
+                  <div class="card-product__text">
+                    <span class="card-product__parameter">
+                      Цена
+                    </span>
+                    <span class="card-product__value">
+                      700 Р.
+                    </span>
+                  </div>
+                </div>
+              </div>
+
+              <button class="card-product__button main-link">
+                заказать
+              </button>
+            </article>
+          </li>
+
+          <li class="list-product__item">
+            <article class="card-product card-product--add">
+              <span class="card-product__name">
+                Показать еще 100500 товаров
+              </span>
+              <span class="card-product__text">
+                На самом деле вкусов гораздо больше!
+              </span>
+              <button class="card-product__button main-link">
+                показать все
+              </button>
+            </article>
           </li>
         </ul>
       </div>
@@ -388,12 +415,14 @@
             <span class="list-additional__name">
               Сахарозаменитель
             </span>
-            <span class="list-additional__value">
-              1 упаковка (100 г)
-            </span>
-            <span class="list-additional__sum">
-              200 Р.
-            </span>
+            <div class="list-additional__cost">
+              <span class="list-additional__value">
+                1 упаковка (100 г)
+              </span>
+              <span class="list-additional__sum">
+                200 Р.
+              </span>
+            </div>
             <button class="list-additional__button main-link">
               заказать
             </button>
@@ -403,12 +432,14 @@
             <span class="list-additional__name">
               питьевая вода
             </span>
-            <span class="list-additional__value">
-              5 литров
-            </span>
-            <span class="list-additional__sum">
-              50 Р.
-            </span>
+            <div class="list-additional__cost">
+              <span class="list-additional__value">
+                5 литров
+              </span>
+              <span class="list-additional__sum">
+                50 Р.
+              </span>
+            </div>
             <button class="list-additional__button main-link">
               заказать
             </button>
@@ -418,12 +449,14 @@
             <span class="list-additional__name">
               молоко
             </span>
-            <span class="list-additional__value">
-              1 литр
-            </span>
-            <span class="list-additional__sum">
-              100 Р.
-            </span>
+            <div class="list-additional__cost">
+              <span class="list-additional__value">
+                1 литр
+              </span>
+              <span class="list-additional__sum">
+                100 Р.
+              </span>
+            </div>
             <button class="list-additional__button main-link">
               заказать
             </button>
@@ -433,19 +466,21 @@
             <span class="list-additional__name">
               витамины
             </span>
-            <span class="list-additional__value">
-              1 упаковка (30 г)
-            </span>
-            <span class="list-additional__sum">
-              300 Р.
-            </span>
+            <div class="list-additional__cost">
+              <span class="list-additional__value">
+                1 упаковка (30 г)
+              </span>
+              <span class="list-additional__sum">
+                300 Р.
+              </span>
+            </div>
             <button class="list-additional__button main-link">
               заказать
             </button>
           </li>
         </ul>
 
-        <div class="additional__gift gift-additional" style="background-color: url(img/additional/gift-bg-mobile.png);">
+        <div class="additional__gift gift-additional" style="background-image: url(img/additional/gift-bg-mobile.png);">
           <span class="gift-additional__text">
             Закажите все и получите чехол для кота в подарок!
           </span>
@@ -463,15 +498,17 @@
           <adress class="adress__home">
             ул. Большая Конюшенная, д. 19/8 Санкт-Петербург
           </adress>
-          <img class="adress__map" src="img/location.jpg" alt="карта">
         </div>
       </div>
+      <img class="adress__map" src="img/location.jpg" alt="карта">
     </section>
   </main>
 
   <footer class="footer">
     <div class="footer__container">
-      <img class="footer__logo" src="img/logo/logo-footer.svg" alt="Cat energy">
+      <div class="footer__logo-inner">
+        <img class="footer__logo" src="img/logo/logo-footer.svg" alt="Cat energy">
+      </div>
 
       <ul class="footer__socials socials">
         <li class="socials__item">
