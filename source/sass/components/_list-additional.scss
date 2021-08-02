@@ -1,0 +1,25 @@
+.list-additional {
+  &__item {
+    padding: 15px 0 20px;
+    border-top: 1px solid #cdcdcd;
+
+    &:last-child {
+      border-bottom: 1px solid #cdcdcd;
+    }
+  }
+
+  &__name {
+    display: block;
+    margin-bottom: 15px;
+    font-size: 16px;
+    line-height: 1;
+    text-transform: uppercase;
+  }
+
+  &__cost {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    color: $mine-shaft;
+  }
+}
