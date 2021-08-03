@@ -12,8 +12,10 @@
   }
 
   &__text {
+    display: block;
     position: relative;
     padding-left: 80px;
+
     &::before {
       content: "";
       position: absolute;
@@ -27,19 +29,19 @@
     }
 
     &--nutrients::before {
-      background-image: url(../../img/works-how/nutrients.svg);
+      background-image: url("../../img/works-how/nutrients.svg");
     }
 
     &--powder::before {
-      background-image: url(../../img/works-how/powder.svg);
+      background-image: url("../../img/works-how/powder.svg");
     }
 
     &--replacement::before {
-      background-image: url(../../img/works-how/replacement.svg);
+      background-image: url("../../img/works-how/replacement.svg");
     }
 
     &--changes::before {
-      background-image: url(../../img/works-how/changes.svg);
+      background-image: url("../../img/works-how/changes.svg");
     }
   }
 }

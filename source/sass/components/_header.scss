@@ -2,16 +2,32 @@
   height: 65px;
   border-bottom: 1px solid $alto;
 
+  @include min($md) {
+    height: 120px;
+  }
+
+  @include min($xl) {
+    height: 210px;
+  }
+
   &__container {
+    @include container;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    @include container;
   }
 
   &__navigation {
     height: 65px;
     display: flex;
     align-items: center;
+
+    @include min($md) {
+      height: 120px;
+    }
+
+    @include min($xl) {
+      height: 210px;
+    }
   }
 }

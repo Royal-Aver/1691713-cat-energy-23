@@ -13,4 +13,8 @@
     background-color: $black;
     margin: 8px 0;
   }
+
+  @include min($md) {
+    display: none;
+  }
 }

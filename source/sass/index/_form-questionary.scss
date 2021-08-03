@@ -14,8 +14,8 @@
   }
 
   &__text {
-    margin-right: 10px;
     @include form-text;
+    margin-right: 10px;
   }
 
   &__field {
