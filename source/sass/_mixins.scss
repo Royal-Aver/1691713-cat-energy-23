@@ -27,6 +27,16 @@ $xl: 1440px;
   margin: 0 auto;
   padding: 0 20px;
   max-width: 360px;
+
+  @include min($md) {
+    max-width: 828px;
+    padding: 0 30px;
+  }
+
+  @include min($xl) {
+    max-width: 1640px;
+    padding: 0 110px;
+  }
 }
 
 @mixin title {
@@ -34,6 +44,11 @@ $xl: 1440px;
   font-weight: 400;
   font-size: 36px;
   line-height: 40px;
+
+  @include min($md) {
+    font-size: 60px;
+    line-height: 1;
+  }
 }
 
 @mixin form-text {

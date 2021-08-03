@@ -9,4 +9,11 @@
   color: $white;
   text-transform: uppercase;
   border: none;
+
+  @include min($md) {
+    width: 244px;
+    height: 54px;
+    font-size: 20px;
+    line-height: 1;
+  }
 }

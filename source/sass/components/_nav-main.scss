@@ -1,5 +1,22 @@
 .nav-main {
   &__list {
     display: none;
+
+    @include min($md) {
+      display: flex;
+    }
+  }
+
+  &__item {
+    &:not(:last-child) {
+      margin-right: 35px;
+    }
+  }
+
+  &__link {
+    font-family: "oswald", sans-serif;
+    font-size: 18px;
+    line-height: 24 / 18 * 100%;
+    text-transform: uppercase;
   }
 }
